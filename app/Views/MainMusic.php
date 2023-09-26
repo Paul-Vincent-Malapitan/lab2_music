@@ -69,7 +69,7 @@ audio {
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">My Playlist</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -78,7 +78,7 @@ audio {
                         <?php foreach ($playlists as $play) : ?>
                             <li>
                                 <a href="/playlists/<?= $play['id'] ?>">
-                                    <?= $play['name'] ?>
+                                    <?= $play['name'] ?>jy
                                 </a>
                             </li>
                         <?php endforeach; ?>
